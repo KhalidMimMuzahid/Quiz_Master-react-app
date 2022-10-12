@@ -7,4 +7,4 @@
 ### the question set as a side nam bar
 ## create statistics component
 ### the x axis is represent the topic name
-### and the y axis re presesnt the total quez no
+### and the y axis re presesnt the total quez  no 
