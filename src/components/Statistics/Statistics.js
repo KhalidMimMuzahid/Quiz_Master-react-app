@@ -23,7 +23,7 @@ const Statistics = () => {
             "name": "CSS",
             "logo": "https://live.staticflickr.com/65535/52413665713_5977a693cb_o.png",
             "total": 8
-          },
+          }, 
           {
             "id": 5,
             "name": "Git",
