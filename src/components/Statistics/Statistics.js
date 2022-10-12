@@ -45,4 +45,4 @@ const Statistics = () => {
     );
 };
 
-export default Statistics;
+export default  Statistics;
