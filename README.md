@@ -10,4 +10,4 @@
 ### and the y axis re presesnt the total quez  no 
 ## see correct answer button okk
 
-# Live Site Link: ## https://quiz-master-pro.netlify.app/
+# Live Site Link: https://quiz-master-pro.netlify.app/

@@ -23,7 +23,7 @@ const Blog = () => {
                 </div>
             </div>
             <div className='col-span-9'>
-                <div className='border border-black m-4 p-2'>
+                <div className='m-4 p-2'>
                     <Outlet></Outlet>
                 </div>
             </div>
