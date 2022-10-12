@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "question": "What is the purpose of react-router ?"
+    },
+    {
+        "id": 2,
+        "question": "How does context API work..?"
+    },
+    {
+        "id": 3,
+        "question": "What is useRef() hooks in react .?"
+    }
+]
