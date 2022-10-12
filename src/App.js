@@ -10,6 +10,7 @@ import BlogQues2 from './components/Blog/BlogQues2/BlogQues2';
 import BlogQues3 from './components/Blog/BlogQues3/BlogQues3';
 import DefaultBlogBody from './components/Blog/DefaultBlogBody/DefaultBlogBody';
 import DefaultHomeBody from './components/Home/DefaultHomeBody/DefaultHomeBody';
+import Statistics from './components/Statistics/Statistics';
 
 function App() {
   const router= createBrowserRouter([
@@ -20,7 +21,13 @@ function App() {
         {
           path:"/",
           loader: ()=>fetch("https://openapi.programming-hero.com/api/quiz"),
-          element: <Home></Home>
+          element: <Home></Home>,
+          children: [
+            {
+              path:"/",
+              element: <DefaultHomeBody></DefaultHomeBody>
+            },
+          ]
         },
         {
           path:"/home",
@@ -65,6 +72,11 @@ function App() {
           ]
 
         },
+        {
+          path:"statistics",
+          loader: ()=>fetch("https://openapi.programming-hero.com/api/quiz"),
+          element: <Statistics></Statistics>
+        }
       ]
     },
     {

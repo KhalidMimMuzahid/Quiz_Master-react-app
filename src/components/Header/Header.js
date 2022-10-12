@@ -17,6 +17,7 @@ const Header = () => {
             }`}
             >Home</NavLink> */}
                 <NavLink to="/blog" className='p-5 font-bold hover:bg-slate-500'>Blog</NavLink>
+                <NavLink to="/statistics" className='p-5 font-bold hover:bg-slate-500'>Statistics</NavLink>
             </div>
         </nav>
     );
